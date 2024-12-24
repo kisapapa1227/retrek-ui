@@ -133,7 +133,7 @@ function chkMess(opt){
 	case 'pdf':return("pdfを作成中");
 	case 'ppt':return("パワーポイントを作成中");
 	case '-force':return("pdfを作成中");
-	case 'non':return("pdfを切り替え中");
+	case 'non':return("pdfを準備中");
 	case 'askPptx':return("pptxをダウンロード中");
 	case 'db':return("ReTRek情報をダウンロード中");
 	case 'drop':return("探索履歴の削除中");
@@ -489,7 +489,6 @@ for (var i = 0; i < table[fname[0]].length-1; i++) {
     for (let j = 0; j < fname.length; j++) {
 if (! skip.includes(j)){
       cell = document.createElement("td");
-      cellText;
 if (j==0){
       cellText = document.createElement("input");
       cellText.type="radio";
@@ -527,5 +526,8 @@ if (modal=='yes'){
 	document.getElementById("proc").innerHTML=mess;
 
 	setTimeout(modal_wacher,1000);
+}else{
+	cell=document.getElementById("radio:"+table[fname[0]][0]);
+	showPdf(cell,"non","non");
 }
 </script>
