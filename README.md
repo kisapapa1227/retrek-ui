@@ -14,7 +14,7 @@
 </details>
 
 
-<span style="color:　#ff00ff;　background-color:#ffcce5; ">あいうえお</span>
+<span style="border: dahsed red; color:　#ff00ff;　background-color:#ffcce5; ">あいうえお</span>
 
 ### セットアップ方法<br>
 以下をターミナルで実行。手順5の、省力化スクリプトを利用することで、作業の簡略化もできます。
