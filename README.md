@@ -82,4 +82,4 @@ sh InstallerStep3.sh<br>
 #### ユーザーマニュアル
 ブラウザから<br>
 http://localhost<br>
-で接続して利用する。操作は、<a href="./Installer/retrek-ui-user-manualV1.3.pdf">ユーザーマニュアル<\a>を準備したので、参考にしてください。
+で接続して利用する。操作は、<a href="./Installer/retrek-ui-user-manualV1.3.pdf">ユーザーマニュアル</a>を準備したので、参考にしてください。
