@@ -12,7 +12,7 @@
 以下をターミナルで実行。手順5の、省力化スクリプトを利用することで、作業の簡略化もできます。
 
 #### 手順1: コードを作業用ディレクトリーにダウンロードする。<br>
-<div bgcolor=blue>
+<div style="color: blue;">
 cd hoge<br>
 git clone https://github.com/kisapapa1227/retrek-ui.git<br>
 cd retrek-ui<br>
