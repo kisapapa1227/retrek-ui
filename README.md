@@ -10,17 +10,17 @@
 
 ### セットアップ方法<br>
 以下をターミナルで実行。手順5の、省力化スクリプトを利用することで、作業の簡略化もできます。
-```math
-\textcolor{red}{red}
-```
-<span style="color:red;">
+
 #### 手順1: コードを作業用ディレクトリーにダウンロードする。<br>
+```math
+\colorbox[rgb]{0.9,0.8,0.9}{
 cd hoge<br>
 git clone https://github.com/kisapapa1227/retrek-ui.git<br>
 cd retrek-ui<br>
 git clone https://github.com/kisapapa1227/ReTReKpy.git<br>
 cp .env.easy .env # docker の設定ファイルを準備する。<br>
-</span>
+}
+```
 
 #### 手順2:Dockerコンテナを作成する。<br>
 sudo su<br>
