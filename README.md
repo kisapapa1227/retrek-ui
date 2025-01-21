@@ -8,7 +8,7 @@
 ### 動作確認済み環境
 - Ubuntu 22.04.3 LTS on Windows Subsystem for Linux version 2.2.4.0
 
-<details>
+<details style="color:red;">
   <summary>Details</summary>
   Something small enough to escape casual notice.
 </details>
