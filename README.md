@@ -8,6 +8,12 @@
 ### 動作確認済み環境
 - Ubuntu 22.04.3 LTS on Windows Subsystem for Linux version 2.2.4.0
 
+<details>
+  <summary>Details</summary>
+  Something small enough to escape casual notice.
+</details>
+
+
 <span style="color:　#ff00ff;　background-color:#ffcce5; ">あいうえお</span>
 
 ### セットアップ方法<br>
