@@ -1,7 +1,5 @@
 # retrek-ui : user interface for ReTReK
-<font color=Red>
 このパッケージはReTReK (逆合成の知識を使用したデータ駆動型コンピュータ支援合成計画ツール)をユーザーフレンドリーに使うためのウェブインタフェースを提供する。分子の化学構造をSMILES記述で指定するのみで、合成反応経路を pdf ファイルとしてダウンロードすることが可能である。また、探索結果をデータベースに登録後には、任意の表示サイズでpptxファイルに変換できる。
-</font>
     
 <div align="center">
   <img src="./Installer/sample.jpg" width="100%">
@@ -14,8 +12,7 @@
 以下をターミナルで実行。手順5の、省力化スクリプトを利用することで、作業の簡略化もできます。<br>
 
 #### 手順1: コードを作業用ディレクトリーにダウンロードする。<br>
-<font color="gray">
-cd hoge</font><br>
+cd hoge<br>
 git clone https://github.com/kisapapa1227/retrek-ui.git<br>
 cd retrek-ui<br>
 git clone https://github.com/kisapapa1227/ReTReKpy.git<br>
