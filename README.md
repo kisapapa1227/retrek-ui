@@ -13,7 +13,7 @@
 
 #### 手順1: コードを作業用ディレクトリーにダウンロードする。<br>
 ```math
-\colorbox[rgb]{0.9,0.8,0.9}{
+\colorbox{red}{
 cd hoge<br>
 git clone https://github.com/kisapapa1227/retrek-ui.git<br>
 cd retrek-ui<br>
