@@ -41,7 +41,7 @@ mv /var/www/html /var/www/html.org<br>
 rm -rf /var/www/html<br>
 
 #### 手順3:Dockerイメージを作成、起動する。<br>
-<div steyle="border:background-color:#f9f9f9;">
+<div style="border:background-color:#f9f9f9;">
 ln -s $(pwd) /var/www/html<br>
 chmod 666 /var/www/html/.env<br>
 touch /var/www/html/storage/logs/laravel.log<br>
