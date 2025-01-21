@@ -1,7 +1,6 @@
 # retrek-ui : user interface for ReTReK
 このパッケージはReTReK (逆合成の知識を使用したデータ駆動型コンピュータ支援合成計画ツール)をユーザーフレンドリーに使うためのインタフェースを提供する。分子の化学構造をSMILES記述で指定するのみで、多段階の合成反応経路を pdf ファイルとして得ることができる。また、探索結果をデータベースに登録すると、pptxファイルへの変換、および、化学構造式の表示サイズの調整ができる。
 
-
 <div align="center">
   <img src="./Installer/sample.jpg" width="100%">
 </div>
@@ -41,7 +40,7 @@ mv /var/www/html /var/www/html.org<br>
 rm -rf /var/www/html<br>
 
 #### 手順3:Dockerイメージを作成、起動する。<br>
-<div style="border: 3px dashed #FF5733; padding: 20px; background-color: #f9f9f9;">
+<div bgcolor=blue>
 ln -s $(pwd) /var/www/html<br>
 chmod 666 /var/www/html/.env<br>
 touch /var/www/html/storage/logs/laravel.log<br>
