@@ -12,7 +12,8 @@
 以下をターミナルで実行。手順5の、省力化スクリプトを利用することで、作業の簡略化もできます。<br>
 
 #### 手順1: コードを作業用ディレクトリーにダウンロードする。<br>
-cd hoge<br>
+<code style="color:red">
+cd hoge</code><br>
 git clone https://github.com/kisapapa1227/retrek-ui.git<br>
 cd retrek-ui<br>
 git clone https://github.com/kisapapa1227/ReTReKpy.git<br>
@@ -82,4 +83,4 @@ sh InstallerStep3.sh<br>
 #### ユーザーマニュアル
 ブラウザから<br>
 http://localhost<br>
-で接続して利用する。操作は、<a href="./Installer/retrek-ui-user-manualV1.3.pdf">ユーザーマニュアル</a>を準備したので、参考にしてください。
+で接続して利用する。操作は、<a href="./Installer/retrek-ui-user-manualV1.3.pdf">ユーザーマニュアル</a>を参考にしてください。
