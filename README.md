@@ -16,8 +16,6 @@ rek-ui.git<br>
 cd retrek-ui<br>
 git clone https://github.com/kisapapa1227/ReTReKpy.git<br>
 cp .env.easy .env # docker の設定ファイルを準備する。<br>
-}
-```
 
 #### 手順2:Dockerコンテナを作成する。<br>
 sudo su<br>
