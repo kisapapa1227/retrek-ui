@@ -5,6 +5,7 @@
   <img src="./Installer/sample.jpg" width="100%">
 </div>
 
+~~ ok ~~<br>
 ### 動作確認済み環境
 - Ubuntu 22.04.3 LTS on Windows Subsystem for Linux version 2.2.4.0
 
