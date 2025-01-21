@@ -41,13 +41,13 @@ mv /var/www/html /var/www/html.org<br>
 rm -rf /var/www/html<br>
 
 #### 手順3:Dockerイメージを作成、起動する。<br>
-::: note info
+<div steyle="border:background-color:#f9f9f9;">
 ln -s $(pwd) /var/www/html<br>
 chmod 666 /var/www/html/.env<br>
 touch /var/www/html/storage/logs/laravel.log<br>
 chmod 666 /var/www/html/storage/logs/laravel.log<br>
 chmod -R 777 /var/www/html<br>
-###
+</div>
 
 ./vendor/bin/sail up -d<br>
 ./vendor/bin/sail artisan key:generate<br>
