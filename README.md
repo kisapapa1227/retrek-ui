@@ -8,6 +8,8 @@
 ### 動作確認済み環境
 - Ubuntu 22.04.3 LTS on Windows Subsystem for Linux version 2.2.4.0
 
+<span style="background-color:#ffcce5">あいうえお</span>
+
 ### セットアップ方法<br>
 以下をターミナルで実行。手順5の、省力化スクリプトを利用することで、作業の簡略化もできます。
 |№|色|値|
