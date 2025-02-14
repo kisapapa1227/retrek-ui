@@ -80,6 +80,4 @@ sh InstallerStep3.sh<br>
 を実行する。
 
 #### ユーザーマニュアル
-ブラウザから<br>
-http://localhost<br>
-で接続して利用する。操作は、<a href="./Installer/retrek-ui-user-manualV1.3.pdf">ユーザーマニュアル</a>を参考にしてください。
+<a href="./Installer/retrek-ui-user-manualV1.3.pdf">ユーザーマニュアル</a>に操作を示す。
